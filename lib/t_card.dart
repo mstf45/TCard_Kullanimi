@@ -19,7 +19,7 @@ List<Color> colors = [
 int _index = 0;
 
 class _TCardKullanimiState extends State<TCardKullanimi> {
-  TCardController _controller = TCardController();
+  final TCardController _controller = TCardController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
